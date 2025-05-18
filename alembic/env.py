@@ -7,7 +7,7 @@ from app.models.base import Base
 
 # Import all models for Alembic to detect
 from app.models.user import User
-from app.models.horse import Horse, HorseImage
+from app.models.horse import Horse, HorseImage  # noqa
 from app.models.market import MarketListing, Transaction
 from app.models.rental import RentalListing, RentalBooking
 
